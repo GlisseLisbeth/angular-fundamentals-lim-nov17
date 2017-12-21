@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let game of games">
+    <em>"{{game.texts.join(' ')}}"</em>, {{game.finished_on | date: 'dd/MM/yy'}}
+  </li>
+</ul>
